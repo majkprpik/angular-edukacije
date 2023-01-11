@@ -1,4 +1,4 @@
-Potreban software
+git pullPotreban software
 1. Google chrome
 2. VS CODE + addons:
     - Angular Language Service
