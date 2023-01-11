@@ -2,7 +2,14 @@ prvi red
 
 
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+jel proslo ? nije
+
+=======
 jel proslo ? nije , kako nije ?
+
 
 
 kim
@@ -15,6 +22,3 @@ martin
  dsa
  sda
  
-osmi red
-    karla FEHIR
-deveti red
