@@ -1,0 +1,102 @@
+CD - change directory
+PWD - print wokring directory
+LS, DIR
+
+
+naredbe malim slovima
+naredbe sa dvije riječi odvojene crticom
+
+flags
+
+imena datoteka i direktorija ne bi trebala sadržavati razmake
+
+
+
+
+
+COMMIT
+git commit -m "Initial commit"
+
+BRANCH
+Because there is no storage / memory overhead with making many branches, 
+it's easier to logically divide up your work than have big beefy branches.
+"branch early, and branch often"
+git branch main (-m)
+git checkout main (-b)
+git switch main
+
+MERGE
+Merging in Git creates a special commit that has two unique parents. 
+A commit with two parents essentially means 
+I want to include all the work from this parent over here and this one over here, and the set of all their parents."
+git merge main
+napravi dva brancha, napravi promjene na jednom, mergeaj ih, prebaci se na drugi branch i mergaj onda s prvim
+
+REBASE
+We would like to move our work from bugFix directly onto the work from main. 
+That way it would look like these two features were developed sequentially, 
+when in reality they were developed in parallel.
+git rebase main
+git rebase -i HEAD~3
+
+
+HEAD
+HEAD is the symbolic name for the currently checked out commit -- it's essentially what commit you're working on top of
+HEAD always points to the most recent commit which is reflected in the working tree. 
+Most git commands which make changes to the working tree will start by changing HEAD.
+Detaching HEAD
+Detaching HEAD just means attaching it to a commit instead of a branch.
+git checkout 3c9e6b
+
+Moving upwards one commit at a time with ^
+Moving upwards a number of times with ~<num>
+
+BRANCH FORCING
+One of the most common ways I use relative refs is to move branches around. 
+You can directly reassign a branch to a commit with the -f option. So something like:
+git branch -f main HEAD~3
+
+RESET
+git reset HEAD~1(--hard also remove from staging and working directory)
+
+REVERT
+While resetting works great for local branches on your own machine, 
+its method of "rewriting history" doesn't work for remote branches that others are using.
+In order to reverse changes and share those reversed changes with others, 
+we need to use git revert. Let's see it in action.
+git revert HEAD~1
+
+CHERRY-PICK
+git cherry-pick <commit-hash> <commit-hash>...
+
+Git Cherry-pick
+The first command in this series is called git cherry-pick. It takes on the following form:
+
+git cherry-pick <Commit1> <Commit2> <...>
+It's a very straightforward way of saying that you would like to copy a series of commits below your current location (HEAD). 
+I personally love cherry-pick because there is very little magic involved and it's easy to understand.
+
+TAGS
+git tag -a v1.0 -m "my version 1.0"
+git tag v1 32j3232
+
+
+REMOTE
+remotes serve as a great backup
+remotes make coding social
+git remote add origin <url>
+git remote remove origin
+git remote -v
+
+CLONE
+git clone <url> <folder-name>
+
+FETCH
+git fetch origin
+
+PULL
+git pull origin master
+fetch + merge
+
+PUSH
+git push origin master

@@ -1,0 +1,20 @@
+Potreban software
+1. Google chrome
+2. VS CODE + addons:
+    - Angular Language Service
+    - Angular Snippets
+    - angular2-switcher
+    - Auto Close Tag
+    - Auto Rename Tag
+    - Auto Import
+    - Git history
+    - GitLens
+    - HTML CSS Support
+    - IntelliCode
+    - Github Copilot
+    - npm Intellisense
+    - Path Intellisense
+    - Prettier
+3. GIT(acc na githubu)
+4. Postman
+5. ChatGPT acc
