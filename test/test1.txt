@@ -3,11 +3,16 @@ prvi red
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 jel proslo ? nije
 
+=======
+jel proslo ? nije , kako nije ?
 
 
+
+kim
 deveti red
 
 random
