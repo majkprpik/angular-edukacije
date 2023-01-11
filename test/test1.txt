@@ -2,21 +2,21 @@ prvi red
 
 
 ...
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
 =======
 jel proslo ? nije
 
 =======
 jel proslo ? nije , kako nije ?
 
-<<<<<<< HEAD
+
 
 
 =======
 ovo je moj red :)
 filipe sto radis
->>>>>>> 56211db85ab0c17ca9d2c230105b64746d0512ff
+
 kim
 deveti red
 
@@ -26,9 +26,9 @@ martin
 
  dsa
  sda
-<<<<<<< HEAD
+
  
 =======
  jaja
->>>>>>> 56211db85ab0c17ca9d2c230105b64746d0512ff
+
  
