@@ -10,7 +10,7 @@ jel proslo ? nije
 =======
 jel proslo ? nije , kako nije ?
 
-ovo je moj red :)
+
 
 kim
 deveti red
@@ -21,4 +21,5 @@ martin
 
  dsa
  sda
+ 
  
