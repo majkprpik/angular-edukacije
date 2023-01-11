@@ -2,12 +2,15 @@ prvi red
 
 
 
+<<<<<<< HEAD
+=======
+jel proslo ? nije
 
 
-sedmi red
 
 deveti red
 
+random
 martin 
 
 
